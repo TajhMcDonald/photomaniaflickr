@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		605A8C761DF0FB030015EDCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8C751DF0FB030015EDCA /* main.m */; };
-		605A8C791DF0FB030015EDCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8C781DF0FB030015EDCA /* AppDelegate.m */; };
 		605A8C7C1DF0FB030015EDCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8C7B1DF0FB030015EDCA /* ViewController.m */; };
-		605A8C7F1DF0FB030015EDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A8C7D1DF0FB030015EDCA /* Main.storyboard */; };
 		605A8C811DF0FB030015EDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605A8C801DF0FB030015EDCA /* Assets.xcassets */; };
 		605A8C841DF0FB030015EDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A8C821DF0FB030015EDCA /* LaunchScreen.storyboard */; };
 		605A8C8F1DF0FB040015EDCA /* photomaniaflickrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8C8E1DF0FB040015EDCA /* photomaniaflickrTests.m */; };
 		605A8C9A1DF0FB040015EDCA /* photomaniaflickrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8C991DF0FB040015EDCA /* photomaniaflickrUITests.m */; };
+		605A8CBB1DF0FB580015EDCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CA81DF0FB580015EDCA /* AppDelegate.m */; };
+		605A8CBC1DF0FB580015EDCA /* CurrentTopPlacesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CAA1DF0FB580015EDCA /* CurrentTopPlacesTVC.m */; };
+		605A8CBD1DF0FB580015EDCA /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CAE1DF0FB580015EDCA /* FlickrFetcher.m */; };
+		605A8CBE1DF0FB580015EDCA /* FlickrPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CB01DF0FB580015EDCA /* FlickrPhotos.m */; };
+		605A8CBF1DF0FB580015EDCA /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CB21DF0FB580015EDCA /* ImageViewController.m */; };
+		605A8CC01DF0FB580015EDCA /* PlaceFlickrPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CB41DF0FB580015EDCA /* PlaceFlickrPhotos.m */; };
+		605A8CC11DF0FB580015EDCA /* RecentsUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CB61DF0FB580015EDCA /* RecentsUserDefaults.m */; };
+		605A8CC21DF0FB580015EDCA /* ResentsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CB81DF0FB580015EDCA /* ResentsTVC.m */; };
+		605A8CC31DF0FB580015EDCA /* TopPlacesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CBA1DF0FB580015EDCA /* TopPlacesTVC.m */; };
+		605A8CC61DF0FB7C0015EDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A8CC41DF0FB7C0015EDCA /* Main.storyboard */; };
+		605A8CC71DF0FB7C0015EDCA /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A8CC51DF0FB7C0015EDCA /* iPad.storyboard */; };
+		605A8CCA1DF0FC770015EDCA /* URLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A8CC91DF0FC770015EDCA /* URLViewController.m */; };
+		605A8CD81DF0FEBE0015EDCA /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 605A8CD71DF0FEBE0015EDCA /* flower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +48,8 @@
 /* Begin PBXFileReference section */
 		605A8C711DF0FB030015EDCA /* photomaniaflickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photomaniaflickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605A8C751DF0FB030015EDCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		605A8C771DF0FB030015EDCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		605A8C781DF0FB030015EDCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		605A8C7A1DF0FB030015EDCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		605A8C7B1DF0FB030015EDCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		605A8C7E1DF0FB030015EDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		605A8C801DF0FB030015EDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605A8C831DF0FB030015EDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		605A8C851DF0FB030015EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,30 @@
 		605A8C951DF0FB040015EDCA /* photomaniaflickrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photomaniaflickrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		605A8C991DF0FB040015EDCA /* photomaniaflickrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photomaniaflickrUITests.m; sourceTree = "<group>"; };
 		605A8C9B1DF0FB040015EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605A8CA71DF0FB580015EDCA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		605A8CA81DF0FB580015EDCA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		605A8CA91DF0FB580015EDCA /* CurrentTopPlacesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentTopPlacesTVC.h; sourceTree = "<group>"; };
+		605A8CAA1DF0FB580015EDCA /* CurrentTopPlacesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentTopPlacesTVC.m; sourceTree = "<group>"; };
+		605A8CAC1DF0FB580015EDCA /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		605A8CAD1DF0FB580015EDCA /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		605A8CAE1DF0FB580015EDCA /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		605A8CAF1DF0FB580015EDCA /* FlickrPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotos.h; sourceTree = "<group>"; };
+		605A8CB01DF0FB580015EDCA /* FlickrPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotos.m; sourceTree = "<group>"; };
+		605A8CB11DF0FB580015EDCA /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		605A8CB21DF0FB580015EDCA /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		605A8CB31DF0FB580015EDCA /* PlaceFlickrPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceFlickrPhotos.h; sourceTree = "<group>"; };
+		605A8CB41DF0FB580015EDCA /* PlaceFlickrPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceFlickrPhotos.m; sourceTree = "<group>"; };
+		605A8CB51DF0FB580015EDCA /* RecentsUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsUserDefaults.h; sourceTree = "<group>"; };
+		605A8CB61DF0FB580015EDCA /* RecentsUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsUserDefaults.m; sourceTree = "<group>"; };
+		605A8CB71DF0FB580015EDCA /* ResentsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResentsTVC.h; sourceTree = "<group>"; };
+		605A8CB81DF0FB580015EDCA /* ResentsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResentsTVC.m; sourceTree = "<group>"; };
+		605A8CB91DF0FB580015EDCA /* TopPlacesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPlacesTVC.h; sourceTree = "<group>"; };
+		605A8CBA1DF0FB580015EDCA /* TopPlacesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopPlacesTVC.m; sourceTree = "<group>"; };
+		605A8CC41DF0FB7C0015EDCA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		605A8CC51DF0FB7C0015EDCA /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		605A8CC81DF0FC720015EDCA /* URLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLViewController.h; sourceTree = "<group>"; };
+		605A8CC91DF0FC770015EDCA /* URLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLViewController.m; sourceTree = "<group>"; };
+		605A8CD71DF0FEBE0015EDCA /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +133,30 @@
 		605A8C731DF0FB030015EDCA /* photomaniaflickr */ = {
 			isa = PBXGroup;
 			children = (
-				605A8C771DF0FB030015EDCA /* AppDelegate.h */,
-				605A8C781DF0FB030015EDCA /* AppDelegate.m */,
+				605A8CA71DF0FB580015EDCA /* AppDelegate.h */,
+				605A8CA81DF0FB580015EDCA /* AppDelegate.m */,
+				605A8CA91DF0FB580015EDCA /* CurrentTopPlacesTVC.h */,
+				605A8CAA1DF0FB580015EDCA /* CurrentTopPlacesTVC.m */,
+				605A8CAB1DF0FB580015EDCA /* Flickr Fetcher */,
+				605A8CAF1DF0FB580015EDCA /* FlickrPhotos.h */,
+				605A8CB01DF0FB580015EDCA /* FlickrPhotos.m */,
+				605A8CB11DF0FB580015EDCA /* ImageViewController.h */,
+				605A8CB21DF0FB580015EDCA /* ImageViewController.m */,
+				605A8CB31DF0FB580015EDCA /* PlaceFlickrPhotos.h */,
+				605A8CB41DF0FB580015EDCA /* PlaceFlickrPhotos.m */,
+				605A8CB51DF0FB580015EDCA /* RecentsUserDefaults.h */,
+				605A8CB61DF0FB580015EDCA /* RecentsUserDefaults.m */,
+				605A8CB71DF0FB580015EDCA /* ResentsTVC.h */,
+				605A8CB81DF0FB580015EDCA /* ResentsTVC.m */,
+				605A8CB91DF0FB580015EDCA /* TopPlacesTVC.h */,
+				605A8CBA1DF0FB580015EDCA /* TopPlacesTVC.m */,
 				605A8C7A1DF0FB030015EDCA /* ViewController.h */,
 				605A8C7B1DF0FB030015EDCA /* ViewController.m */,
-				605A8C7D1DF0FB030015EDCA /* Main.storyboard */,
+				605A8CC81DF0FC720015EDCA /* URLViewController.h */,
+				605A8CC91DF0FC770015EDCA /* URLViewController.m */,
 				605A8C801DF0FB030015EDCA /* Assets.xcassets */,
+				605A8CC41DF0FB7C0015EDCA /* Main.storyboard */,
+				605A8CC51DF0FB7C0015EDCA /* iPad.storyboard */,
 				605A8C821DF0FB030015EDCA /* LaunchScreen.storyboard */,
 				605A8C851DF0FB030015EDCA /* Info.plist */,
 				605A8C741DF0FB030015EDCA /* Supporting Files */,
@@ -117,6 +167,7 @@
 		605A8C741DF0FB030015EDCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				605A8CD71DF0FEBE0015EDCA /* flower.jpg */,
 				605A8C751DF0FB030015EDCA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +189,16 @@
 				605A8C9B1DF0FB040015EDCA /* Info.plist */,
 			);
 			path = photomaniaflickrUITests;
+			sourceTree = "<group>";
+		};
+		605A8CAB1DF0FB580015EDCA /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				605A8CAC1DF0FB580015EDCA /* FlickrAPIKey.h */,
+				605A8CAD1DF0FB580015EDCA /* FlickrFetcher.h */,
+				605A8CAE1DF0FB580015EDCA /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +310,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605A8CC71DF0FB7C0015EDCA /* iPad.storyboard in Resources */,
+				605A8CC61DF0FB7C0015EDCA /* Main.storyboard in Resources */,
 				605A8C841DF0FB030015EDCA /* LaunchScreen.storyboard in Resources */,
+				605A8CD81DF0FEBE0015EDCA /* flower.jpg in Resources */,
 				605A8C811DF0FB030015EDCA /* Assets.xcassets in Resources */,
-				605A8C7F1DF0FB030015EDCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +340,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				605A8C7C1DF0FB030015EDCA /* ViewController.m in Sources */,
-				605A8C791DF0FB030015EDCA /* AppDelegate.m in Sources */,
+				605A8CBE1DF0FB580015EDCA /* FlickrPhotos.m in Sources */,
+				605A8CC31DF0FB580015EDCA /* TopPlacesTVC.m in Sources */,
+				605A8CC21DF0FB580015EDCA /* ResentsTVC.m in Sources */,
 				605A8C761DF0FB030015EDCA /* main.m in Sources */,
+				605A8CC01DF0FB580015EDCA /* PlaceFlickrPhotos.m in Sources */,
+				605A8CBB1DF0FB580015EDCA /* AppDelegate.m in Sources */,
+				605A8CC11DF0FB580015EDCA /* RecentsUserDefaults.m in Sources */,
+				605A8CCA1DF0FC770015EDCA /* URLViewController.m in Sources */,
+				605A8CBD1DF0FB580015EDCA /* FlickrFetcher.m in Sources */,
+				605A8CBF1DF0FB580015EDCA /* ImageViewController.m in Sources */,
+				605A8CBC1DF0FB580015EDCA /* CurrentTopPlacesTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +386,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		605A8C7D1DF0FB030015EDCA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				605A8C7E1DF0FB030015EDCA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		605A8C821DF0FB030015EDCA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
